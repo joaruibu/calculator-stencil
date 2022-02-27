@@ -8,7 +8,6 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface MyCalculator {
         "brand": string;
-        "valor": string;
     }
 }
 declare global {
@@ -25,7 +24,6 @@ declare global {
 declare namespace LocalJSX {
     interface MyCalculator {
         "brand"?: string;
-        "valor"?: string;
     }
     interface IntrinsicElements {
         "my-calculator": MyCalculator;
